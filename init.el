@@ -2070,9 +2070,6 @@ then it takes a second \\[keyboard-quit] to abort the minibuffer."
 
 
 
-
-
-
  
 ; (use-package dap-mode
 ;   :straight t
@@ -3314,20 +3311,20 @@ then it takes a second \\[keyboard-quit] to abort the minibuffer."
 ;    "j" #'doc-view-next-line-or-next-page
 ;    "k" #'doc-view-previous-line-or-previous-page))
 
-; (use-package gnuplot
-;   :straight t
-;   :commands (gnuplot-mode gnuplot-make-buffer)
-;   :init
-;   (add-to-list 'auto-mode-alist '("\\.gp\\'" . gnuplot-mode))
-;   :config
-;   (general-define-key
-;    :keymaps 'gnuplot-mode-map
-;    "C-c C-c" #'gnuplot-send-buffer-to-gnuplot)
-;   (general-define-key
-;    :states '(normal)
-;    :keymaps 'gnuplot-mode-map
-;    "RET" #'gnuplot-send-buffer-to-gnuplot)
-;   (add-hook 'gnuplot-mode-hook #'smartparens-mode))
+(use-package gnuplot
+  :straight t
+  :commands (gnuplot-mode gnuplot-make-buffer)
+  :init
+  (add-to-list 'auto-mode-alist '("\\.gp\\'" . gnuplot-mode))
+  :config
+  (general-define-key
+   :keymaps 'gnuplot-mode-map
+   "C-c C-c" #'gnuplot-send-buffer-to-gnuplot)
+  (general-define-key
+   :states '(normal)
+   :keymaps 'gnuplot-mode-map
+   "RET" #'gnuplot-send-buffer-to-gnuplot)
+  (add-hook 'gnuplot-mode-hook #'smartparens-mode))
 
 ; (use-package x509-mode
 ;   :commands (x509-dwim)
@@ -3369,13 +3366,13 @@ then it takes a second \\[keyboard-quit] to abort the minibuffer."
 ;   :config
 ;   (add-hook 'csproj-mode #'smartparens-mode))
 
-; (use-package haskell-mode
-;   :straight t
-;   :mode "\\.hs\\'")
+(use-package haskell-mode
+  :straight t
+  :mode "\\.hs\\'")
 
-; (use-package lsp-haskell
-;   :straight t
-;   :after (lsp haskell-mode))
+(use-package lsp-haskell
+  :straight t
+  :after (lsp haskell-mode))
 
 ; (use-package nix-mode
 ;   :straight t
@@ -3384,35 +3381,48 @@ then it takes a second \\[keyboard-quit] to abort the minibuffer."
 ;   (add-hook 'nix-mode-hook #'smartparens-mode)
 ;   (my/set-smartparens-indent 'nix-mode)) |#
 
-; (use-package lua-mode
-;   :straight t
-;   :mode "\\.lua\\'"
-;   :hook (lua-mode . smartparens-mode))
+(use-package lua-mode
+  :straight t
+  :mode "\\.lua\\'"
+  :hook (lua-mode . smartparens-mode))
 
 ; (my/set-smartparens-indent 'lua-mode)
 
-; (setq org-directory (expand-file-name "~/30-39 Life/32 org-mode"))
+ (setq org-directory (expand-file-name "~/30-39 Life/32 org-mode"))
 
-; (use-package org
-;   :straight (:type built-in)
-;   :if (not my/remote-server)
-;   :defer t
-;   :init
-;   (unless (file-exists-p org-directory)
-;     (mkdir org-directory t))
-;   :config
-;   (setq org-startup-indented (not my/is-termux))
-;   (setq org-return-follows-link t)
-;   (setq org-src-tab-acts-natively nil)
-;   (add-hook 'org-mode-hook 'smartparens-mode)
-;   (add-hook 'org-agenda-mode-hook
-;             (lambda ()
-;               (visual-line-mode -1)
-;               (toggle-truncate-lines 1)
-;               (display-line-numbers-mode 0)))
-;   (add-hook 'org-mode-hook
-;             (lambda ()
-;               (rainbow-delimiters-mode -1))))
+(use-package org
+  :straight (:type built-in)
+  ; :if (not my/remote-server)
+  :defer t
+  :init
+  (unless (file-exists-p org-directory)
+    (mkdir org-directory t))
+  :config
+  ; (setq org-startup-indented (not my/is-termux))
+  (setq org-return-follows-link t)
+  (setq org-src-tab-acts-natively nil)
+  ; (add-hook 'org-mode-hook 'smartparens-mode)
+  (add-hook 'org-agenda-mode-hook
+            (lambda ()
+              (visual-line-mode -1)
+              (toggle-truncate-lines 1)
+              (display-line-numbers-mode 0)))
+  (add-hook 'org-mode-hook
+            (lambda ()
+              (rainbow-delimiters-mode -1))))
+
+
+
+
+(use-package org-bullets
+  ;:after org
+  :hook (org-mode . org-bullets-mode)
+  :custom
+  (org-bullets-bullet-list '("◉" "○" "●" "○" "●" "○" "●")))
+
+
+
+
 
 ; (with-eval-after-load 'org
 ;   (require 'org-crypt)

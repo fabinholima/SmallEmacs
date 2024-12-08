@@ -1,1 +1,1 @@
-# SmallEmas
+# SmallEmacs

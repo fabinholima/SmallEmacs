@@ -1,0 +1,5 @@
+* Default
+** SlidesQuimica
+ - path :: ~/Nextcloud/SlidesQuimica
+** Aulas
+ - path :: ~/Nextcloud/AulasQuimica

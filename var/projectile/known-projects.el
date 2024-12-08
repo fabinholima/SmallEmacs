@@ -1,0 +1,1 @@
+("~/Nextcloud/SlidesQuimica/" "~/Nextcloud/AulasQuimica/")

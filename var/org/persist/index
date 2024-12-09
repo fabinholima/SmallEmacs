@@ -1,9 +1,27 @@
 ((:container
   ((elisp org-element--headline-cache)
    (elisp org-element--cache))
+  :persist-file "37/214dc1-cdbf-4824-a9cd-468c9c04638e" :associated
+  (:hash "7e5cd0e12289fa3acb234e68c0615ba4" :file "/home/fabio/Nextcloud/AulasQuimica/Fisico_Quimica/Radioatividade/RadioatividadeII.org" :inode 31769)
+  :expiry 30 :last-access 1733747982.66023 :last-access-hr "2024-12-09T08:39:42-0400")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "b8/167ab4-cdb2-40cf-8421-efb9c548e037" :associated
+  (:hash "c374e0b2bbff97a959fed897fa33cd2e" :file "/home/fabio/Nextcloud/AulasQuimica/Quimica_Geral/LeisPonderais/FormulaMinima.org" :inode 32180)
+  :expiry 30 :last-access 1733747949.2290523 :last-access-hr "2024-12-09T08:39:09-0400")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
+  :persist-file "a5/62b3bd-8bf3-4393-bd97-cc32aacdcc2c" :associated
+  (:hash "fee8a37fa51122460f2ce2520b4a03c5" :file "/home/fabio/Nextcloud/AulasQuimica/Quimica_Geral/LeisPonderais/LeiLavosier.org" :inode 32181)
+  :expiry 30 :last-access 1733747949.2690406 :last-access-hr "2024-12-09T08:39:09-0400")
+ (:container
+  ((elisp org-element--headline-cache)
+   (elisp org-element--cache))
   :persist-file "4d/a4804b-2627-423d-94c7-f333d039b0ac" :associated
-  (:hash "ae15c12c945db1890ea2b366d70826de" :file "/home/fabio/Nextcloud/SlidesQuimica/QO/Polimeros/Polimeros.org" :inode 58615173)
-  :expiry 30 :last-access 1733669627.4665883 :last-access-hr "2024-12-08T10:53:47-0400")
+  (:hash "2536fc3798bdf4a99045e6c41e8a771b" :file "/home/fabio/Nextcloud/SlidesQuimica/QO/Polimeros/Polimeros.org" :inode 655304)
+  :expiry 30 :last-access 1733773469.750219 :last-access-hr "2024-12-09T15:44:29-0400")
  (:container
   ((elisp org-element--headline-cache)
    (elisp org-element--cache))
@@ -20,14 +38,14 @@
   ((elisp org-element--headline-cache)
    (elisp org-element--cache))
   :persist-file "45/149be1-ba85-4996-b989-9085a499487b" :associated
-  (:hash "9c5202a2add1a04a0257b787340d1c06" :file "/home/fabio/Nextcloud/SlidesQuimica/main.org" :inode 58615251)
-  :expiry 30 :last-access 1733663279.3757353 :last-access-hr "2024-12-08T09:07:59-0400")
+  (:hash "a460737f89ab867e6091cf4f354e99a0" :file "/home/fabio/Nextcloud/SlidesQuimica/main.org" :inode 209055)
+  :expiry 30 :last-access 1733773469.7949142 :last-access-hr "2024-12-09T15:44:29-0400")
  (:container
   ((elisp org-element--headline-cache)
    (elisp org-element--cache))
   :persist-file "10/044958-1b38-4dd9-a020-a8804e4c113d" :associated
-  (:hash "0f8427bd3b1213460caa600c1ab472f3" :file "/home/fabio/.emacs.d/var/treemacs/persist.org" :inode 59006861)
-  :expiry 30 :last-access 1733668989.6884263 :last-access-hr "2024-12-08T10:43:09-0400")
+  (:hash "0f8427bd3b1213460caa600c1ab472f3" :file "/home/fabio/.emacs.d/var/treemacs/persist.org" :inode 690708)
+  :expiry 30 :last-access 1733773469.688818 :last-access-hr "2024-12-09T15:44:29-0400")
  (:container
   ((index "3.1"))
-  :persist-file "76/c652a8-aa82-480c-8435-df36f31d9b5c" :associated nil :expiry never :last-access 1733669627.527297 :last-access-hr "2024-12-08T10:53:47-0400"))
+  :persist-file "76/c652a8-aa82-480c-8435-df36f31d9b5c" :associated nil :expiry never :last-access 1733773469.8398135 :last-access-hr "2024-12-09T15:44:29-0400"))

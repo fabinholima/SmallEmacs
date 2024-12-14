@@ -78,6 +78,24 @@
    (lambda (data)
      (message "%f Gb" (/ (float data) 1024 1024)))))
 
+
+
+
+;(use-package exec-path-from-shell
+;  :straight t)
+
+;; TO MAC OS X
+;;(when (memq window-system '(mac ns x))
+;;  (exec-path-from-shell-initialize))
+
+
+;; TO LINUX
+
+;(when (daemonp)
+;  (exec-path-from-shell-initialize))
+
+;(exec-path-from-shell-copy-env "PATH")
+
 (use-package micromamba
   :straight t
   :if (executable-find "micromamba")
@@ -1161,6 +1179,10 @@ then it takes a second \\[keyboard-quit] to abort the minibuffer."
   (doom-themes-visual-bell-config)
   (setq doom-themes-treemacs-theme "doom-colors")
   (doom-themes-treemacs-config))
+
+
+(use-package theme-magic
+  :straight t)
 
 (use-package modus-themes
   :straight t)

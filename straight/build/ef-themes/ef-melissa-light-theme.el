@@ -1,0 +1,1 @@
+/home/fabio/.emacs.d/straight/repos/ef-themes/ef-melissa-light-theme.el

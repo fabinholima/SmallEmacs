@@ -1,0 +1,1 @@
+/home/fabio/.emacs.d/straight/repos/auto-dim-other-buffers.el/auto-dim-other-buffers.el

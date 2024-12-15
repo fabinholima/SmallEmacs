@@ -1,5 +1,6 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/home/fabio/Nextcloud/SlidesQuimica/QO/Polimeros/Polimeros.org" . 723)
+(("/home/fabio/.emacs.d/var/diary" . 36)
+ ("/home/fabio/Nextcloud/SlidesQuimica/QO/Polimeros/Polimeros.org" . 723)
  ("/home/fabio/Nextcloud/SlidesQuimica/main.org" . 530)
  ("/home/fabio/Nextcloud/SlidesQuimica/QG/Aula06.org" . 11081)
  ("/home/fabio/.emacs.d/var/treemacs/persist.org" . 110)

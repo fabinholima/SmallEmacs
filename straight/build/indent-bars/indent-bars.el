@@ -1,0 +1,1 @@
+/home/fabio/.emacs.d/straight/repos/indent-bars/indent-bars.el

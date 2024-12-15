@@ -1,0 +1,1 @@
+/home/fabio/.emacs.d/straight/repos/gntp.el/gntp.el

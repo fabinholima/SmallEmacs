@@ -1,0 +1,1 @@
+/home/fabio/.emacs.d/straight/repos/use-package/emacsver.texi

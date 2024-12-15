@@ -1,0 +1,1 @@
+/home/fabio/.emacs.d/straight/repos/theme-magic/theme-magic.el

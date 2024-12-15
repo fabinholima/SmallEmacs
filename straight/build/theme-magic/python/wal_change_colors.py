@@ -1,0 +1,1 @@
+/home/fabio/.emacs.d/straight/repos/theme-magic/python/wal_change_colors.py
